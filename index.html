@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Marcellus&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Sofia+Sans+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./loader.css">
+</head>
+<body>
+
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-inner line-scale-pulse-out">
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+               <div></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <header>
+        <div class="container t-border">
+            <div class="head">
+                <div class="logo"><a href=""><img src="./ASSETS/logo.png" width="167" height="33" alt="" class="logo"/></a></div>
+                <ul class="links animate">
+                    <li><a href="" aria-current="page" id="nav">HOME</a></li>
+                    <li><a href="#about" aria-current="page" id="nav">ABOUT</a></li>
+                    <li><a href="#services" aria-current="page" id="nav">SERVICES</a></li>
+                    <li><a href="#blog" aria-current="page" id="nav">BLOG</a></li>
+                    <li><a href="#Contact" aria-current="page" id="nav">CONTACT US</a></li>
+                    <a href="#Contact" class="Header-btn">GET A QUOTE</a>
+                </ul>
+                <div class="toggle-btn">
+                    <i class="fa-solid fa-bars fa-fade"></i>
+                </div>
+            </div>
+            <div class="dropdown-menu">
+                <li><a href="" aria-current="page" id="nav">HOME</a></li>
+                <li><a href="#about" aria-current="page" id="nav">ABOUT</a></li>
+                <li><a href="#services" aria-current="page" id="nav">SERVICES</a></li>
+                <li><a href="#blog" aria-current="page" id="nav">BLOG</a></li>
+                <li><a href="#Contact" aria-current="page" id="nav">CONTACT US</a></li>
+            </div>
+        </div>
+    </header>
+    <section class="main-sec" id="main">
+        <div class="container">
+            <div class="row align-items-center justify-content-md-center justify-content-sm-center mt-sm-3">
+                <div class="col-lg-6 col-md-10 col-sm-10">
+                    <div class="d-flex gap-4 mb-3 volt">
+                        <img src="./ASSETS/001.png" alt="" class="img-mini">
+                        <img src="./ASSETS/002.png" alt="" class="img-mini">
+                        <img src="./ASSETS/003.png" alt="" class="img-mini">
+                    </div>
+                    <div>
+                        <img src="./ASSETS/incease-removebg-preview.png" alt="" class="banner-image">
+                        <h2>YOUR BUISNESS WITH US</h2>
+                    </div>
+                    <div class="Buttons d-flex gap-2 mt-4">
+                        <a href="#Contact" class="btn-1">Contact An Expert</a><a href="#services" class="btn-2">View 50% off Pricing</a>
+                    </div>
+                    <div class="hero-slider">
+                        <img src="./ASSETS/slider-img1.png" alt="">
+                        <img src="./ASSETS/slider-img2.png" alt="">
+                        <img src="./ASSETS/slider-img3.png" alt="">
+                        <img src="./ASSETS/slider-img1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner-img">
+                        <div class="back-circle"></div>
+                        <img src="./ASSETS/girl.png" alt="" class="girl-background">
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center justify-content-center">
+                <h1 data-aos="zoom-in">Want a FREE Review Report Of Your Website?</h1>
+                <h3>Audit Your Site-More Sales, More Lead, More Happy Customers</h3>
+                <div class="col-lg-9">
+                    <div class="inp-back d-flex">
+                        <input type="email" placeholder="Enter Your Name" required class="input-1 radious">
+                        <input type="email" placeholder="Enter Your Email" required class="input-1 left-border">
+                        <input type="email" placeholder="Enter Your Phone" required class="input-1 left-border">
+                        <input type="email" placeholder="Company Name" required class="input-1 left-border">
+                        <input type="submit" name="" id="" class="input-2" value="Submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio-sec" id="portfolio">
+        <div class="container">
+            <div class="row text-center justify-content-center mb-5">
+                <h3>Portfolio Heading</h3>
+                <img src="./ASSETS/incease-removebg-preview.png" alt="" class="increase-img text-center">
+                <h1 data-aos="zoom-in">OUR CRE<strong>8</strong>IVE DESIGNS</h1>
+            </div>
+            <div class="row">
+                <nav>
+                    <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">LOGO DESIGNS</button>
+                        <button class="nav-link active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Websites Design</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Branding</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Mobile Apps</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">eCommerce</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Website Development</button>
+                    </div>
+                </nav>
+                <div class="tab-content p-3 border bg-light" id="nav-tabContent">
+                    <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <p class="tabs-content-1">Creating an <br> effective website</p>
+                        <p class="tabs-content-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec erat diam, <br> tristique pulvinar turpis sit amet, fringilla pharetra tellus. <br><br> Nulla facilisi. Mauris nec tellus volutpat, placerat massa ut, ornare ipsum. Nam <br> sit amet neque eu dolor eleifend pulvinar ut a arcu. Nunc ut nunc magna. <br> Mauris sed rhoncus sapien</p>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <p class="tabs-content-1">Creating an <br> effective website</p>
+                        <p class="tabs-content-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec erat diam, <br> tristique pulvinar turpis sit amet, fringilla pharetra tellus. <br><br> Nulla facilisi. Mauris nec tellus volutpat, placerat massa ut, ornare ipsum. Nam <br> sit amet neque eu dolor eleifend pulvinar ut a arcu. Nunc ut nunc magna. <br> Mauris sed rhoncus sapien</p>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <p class="tabs-content-1">Creating an <br> effective website</p>
+                        <p class="tabs-content-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec erat diam, <br> tristique pulvinar turpis sit amet, fringilla pharetra tellus. <br><br> Nulla facilisi. Mauris nec tellus volutpat, placerat massa ut, ornare ipsum. Nam <br> sit amet neque eu dolor eleifend pulvinar ut a arcu. Nunc ut nunc magna. <br> Mauris sed rhoncus sapien</p>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-slider">
+                <div class="row justify-content-center text-center d-flex">
+                    <div class="col-6">
+                        <div class="portfolio-sec-box mt-4">
+                            <div class="portfolio-sec-hover-box">
+                                <h2 class="mb-4">MOUSE HOVER EFFECT</h2>
+                                <p class="para">Want a FREE Review <br> Report Of Your Website?</p>
+                                <div class="d-flex gap-3 justify-content-center">
+                                    <a href="#Contact" class="btn-1">Contact An Expert</a>
+                                    <a href="#services" class="btn-2">View 50% Off Pricing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="portfolio-sec-box mt-4">
+                            <div class="portfolio-sec-hover-box">
+                                <h2 class="mb-4">MOUSE HOVER EFFECT</h2>
+                                <p class="para">Want a FREE Review <br> Report Of Your Website?</p>
+                                <div class="d-flex gap-3 justify-content-center">
+                                    <a href="#Contact" class="btn-1">Contact An Expert</a>
+                                    <a href="#services" class="btn-2">View 50% Off Pricing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="portfolio-sec-box mt-4">
+                            <div class="portfolio-sec-hover-box">
+                                <h2 class="mb-4">MOUSE HOVER EFFECT</h2>
+                                <p class="para">Want a FREE Review <br> Report Of Your Website?</p>
+                                <div class="d-flex gap-3 justify-content-center">
+                                    <a href="#Contact" class="btn-1">Contact An Expert</a>
+                                    <a href="#services" class="btn-2">View 50% Off Pricing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="portfolio-sec-box mt-4">
+                            <div class="portfolio-sec-hover-box">
+                                <h2 class="mb-4">MOUSE HOVER EFFECT</h2>
+                                <p class="para">Want a FREE Review <br> Report Of Your Website?</p>
+                                <div class="d-flex gap-3 justify-content-center">
+                                    <a href="#Contact" class="btn-1">Contact An Expert</a>
+                                    <a href="#services" class="btn-2">View 50% Off Pricing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center d-flex">
+                    <div class="col-6">
+                        <div class="portfolio-sec-box mt-4">
+                            <div class="portfolio-sec-hover-box">
+                                <h2 class="mb-4">MOUSE HOVER EFFECT</h2>
+                                <p class="para">Want a FREE Review <br> Report Of Your Website?</p>
+                                <div class="d-flex gap-3 justify-content-center">
+                                    <a href="#Contact" class="btn-1">Contact An Expert</a>
+                                    <a href="#services" class="btn-2">View 50% Off Pricing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="portfolio-sec-box mt-4">
+                            <div class="portfolio-sec-hover-box">
+                                <h2 class="mb-4">MOUSE HOVER EFFECT</h2>
+                                <p class="para">Want a FREE Review <br> Report Of Your Website?</p>
+                                <div class="d-flex gap-3 justify-content-center">
+                                    <a href="#Contact" class="btn-1">Contact An Expert</a>
+                                    <a href="#services" class="btn-2">View 50% Off Pricing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="portfolio-sec-box mt-4">
+                            <div class="portfolio-sec-hover-box">
+                                <h2 class="mb-4">MOUSE HOVER EFFECT</h2>
+                                <p class="para">Want a FREE Review <br> Report Of Your Website?</p>
+                                <div class="d-flex gap-3 justify-content-center">
+                                    <a href="#Contact" class="btn-1">Contact An Expert</a>
+                                    <a href="#services" class="btn-2">View 50% Off Pricing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="portfolio-sec-box mt-4">
+                            <div class="portfolio-sec-hover-box">
+                                <h2 class="mb-4">MOUSE HOVER EFFECT</h2>
+                                <p class="para">Want a FREE Review <br> Report Of Your Website?</p>
+                                <div class="d-flex gap-3 justify-content-center">
+                                    <a href="#Contact" class="btn-1">Contact An Expert</a>
+                                    <a href="#services" class="btn-2">View 50% Off Pricing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="counter-sec" id="meet">
+        <div class="container">
+            <div class="row text-left">
+                <div class="col-lg-12">
+                    <div>
+                        <img src="./ASSETS/incease-removebg-preview.png" alt=""  class="specific">
+                        <h1 data-aos="zoom-in">WE MAKE THE WORK <br> HARDER FOR YOU.</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec <br> erat diam, tristique pulvinar turpis sit amet, fringilla pharetra. <br><br> Nulla facilisi. Mauris nec tellus volutpat, placerat massa ut, <br> ornare ipsum. Nam sit amet neque eu dolor eleifend pulvinar ut <br> a arcu. Nunc ut nunc magna. Mauris sed rhoncus sapien</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-start text-left mb-4 mt-4 new">
+                <div class="col-3 ">
+                    <img src="./ASSETS/counter-img1.png" alt="">
+                    <ul id="counter">
+                        <li>
+                          <span class="count percent" data-count="3000">0</span>
+                        </li>
+                    </ul>
+                    <p>Completed Projects</p>
+                </div>
+                <div class="col-3 ">
+                    <img src="./ASSETS/counter-img2.png" alt="">
+                    <ul id="counter">
+                        <li>
+                          <span class="count percent" data-count="25000">0</span>
+                        </li>
+                    </ul>
+                    <p>Hours Of Coading</p>
+                </div>
+            </div>
+            <div class="row justify-content-start text-left new">
+                <div class="col-3 ">
+                    <img src="./ASSETS/counter-img3.png" alt="">
+                    <ul id="counter">
+                        <li>
+                          <span class="count percent" data-count="100">0</span>
+                        </li>
+                    </ul>
+                    <p>Experts Teams</p>
+                </div>
+                <div class="col-3 ">
+                    <img src="./ASSETS/counter-img4.png" alt="">
+                    <ul id="counter">
+                        <li>
+                          <span class="count percent" data-count="11">0</span>
+                        </li>
+                    </ul>
+                    <p>Years Of Business</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="help-sec" id="help">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-between align-items-center change3">
+                        <div>
+                            <p>Do you need help with any other aspects of your IT project?</p>
+                            <h1 data-aos="zoom-in">JUST ASk US, WE ARE HERE TO HELP!</h1>
+                        </div>
+                        <div class="d-flex gap-1"><a href="#Contact" class="btn-1">Contact An Expert</a><span> </span><a href="#services" class="btn-2">View 50% Off Pricing</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="domain-sec" id="blog">
+        <div class="container">
+            <div class="row text-center justify-content-center" style="position: relative;">
+                <img src="./ASSETS/incease-removebg-preview.png" alt="" class="increase-img text-center">
+                <h1 data-aos="zoom-in">Helping Businesses <br> in All Domains</h1>
+                <div class="col-lg-5">
+                    <img src="./ASSETS/caucasian-young-man-portrait-dark-studio-background-neon-removebg-preview.png" alt="" class="men-img">
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <div class="row align-items-center justify-content-md-center justify-content-sm-center huge position-relative z-5">
+                        <div class="col-2">
+                            <div class="same-box domain-box1">
+                                <img src="./ASSETS/domain-1.png" alt="" class="domain-img">
+                                <h6>SOCIAL <br> NETWORKING</h6>
+                            </div>
+                            <div class="same-box domain-box2">
+                                <img src="./ASSETS/domain-2.png" alt="" class="domain-img">
+                                <h6>DIGITAL <br> CONTENT</h6>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="same-box domain-box3">
+                                <img src="./ASSETS/domain-3.png" alt="" class="domain-img">
+                                <h6>E-COMMERCE</h6>
+                            </div>
+                            <div class="same-box domain-box4">
+                                <img src="./ASSETS/domain-4.png" alt="" class="domain-img">
+                                <h6>INTERTAINMENT</h6>
+                            </div>
+                            <div class="same-box domain-box5">
+                                <img src="./ASSETS/domain-5.png" alt="" class="domain-img">
+                                <h6>BANKING</h6>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="same-box domain-box6">
+                                <img src="./ASSETS/domain-6.png" alt="" class="domain-img">
+                                <h6>ENTERPRISE</h6>
+                            </div>
+                            <div class="same-box domain-box7">
+                                <img src="./ASSETS/domain-7.png" alt="" class="domain-img">
+                                <h6>EDUCATION</h6>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="same-box domain-box8">
+                                <img src="./ASSETS/domain-8.png" alt="" class="domain-img">
+                                <h6>TRAVEL</h6>
+                            </div>
+                            <div class="same-box domain-box9">
+                                <img src="./ASSETS/domain-9.png" alt="" class="domain-img">
+                                <h6>HEALTH</h6>
+                            </div>
+                            <div class="same-box domain-box10">
+                                <img src="./ASSETS/domain-10.png" alt="" class="domain-img">
+                                <h6>EVENT & <br> TICKET</h6>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="same-box domain-box11">
+                                <img src="./ASSETS/domain-11.png" alt="" class="domain-img">
+                                <h6>FOOD TECH</h6>
+                            </div>
+                            <div class="same-box domain-box12">
+                                <img src="./ASSETS/domain-12.png" alt="" class="domain-img">
+                                <h6>FASHION</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pricing-sec" id="services">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <img src="./ASSETS/incease-removebg-preview.png" alt="" class="increase-img text-center">
+                <h1 data-aos="zoom-in">PRICING PLANS</h1>
+                <nav>
+                    <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">LOGO DESIGNS</button>
+                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile1" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Websites Design</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact1" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Branding</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact1" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Mobile Apps</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact1" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">eCommerce</button>
+                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact1" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Website Development</button>
+                    </div>
+                </nav>
+                <div class="tab-content p-3 border bg-light" id="nav-tabContent">
+                    <div class="tab-pane fade active show " id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="col-lg-4 unblock">
+                            <div class="startup-box">
+                                <div class="title">
+                                    <h4>STARTUP WEBSITE</h4>
+                                </div>
+                                <div class="price">
+                                    <h5>STARTING AT</h5>
+                                    <h2><strong>$695</strong></h2>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="pricing-card">
+                                <div class="off">
+                                    <h3>75% OFF <span>$1400</span></h3>
+                                </div>
+                                <ul class="pricing-ul">
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                    <li>3 Revisions</li>
+                                    <li>Complete W3C Certified HTML Guarantee</li>
+                                    <li>Complete Deployment</li>
+                                    <li>48 Hours Turn Around Time</li>
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                    <li>Complete Deployment</li>
+                                    <li>48 Hours Turn Around Time</li>
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                </ul>
+                                <div class="line">
+                                    <p>Ideal for small business and start Ups</p>
+                                </div>
+                                <div class="end">
+                                    <a href="" class="price-btn">BUY NOW TODAY</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 unblock">
+                            <div class="startup-box change1">
+                                <div class="title">
+                                    <h4>STARTUP WEBSITE</h4>
+                                </div>
+                                <div class="price">
+                                    <h5>STARTING AT</h5>
+                                    <h2><strong>$695</strong></h2>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="pricing-card">
+                                <div class="off">
+                                    <h3>75% OFF <span>$1400</span></h3>
+                                </div>
+                                <ul class="pricing-ul">
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                    <li>3 Revisions</li>
+                                    <li>Complete W3C Certified HTML Guarantee</li>
+                                    <li>Complete Deployment</li>
+                                    <li>48 Hours Turn Around Time</li>
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                    <li>Complete Deployment</li>
+                                    <li>48 Hours Turn Around Time</li>
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                </ul>
+                                <div class="line">
+                                    <p>Ideal for small business and start Ups</p>
+                                </div>
+                                <div class="end">
+                                    <a href="" class="price-btn purple">BUY NOW TODAY</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="startup-box change2">
+                                <div class="title">
+                                    <h4>STARTUP WEBSITE</h4>
+                                </div>
+                                <div class="price">
+                                    <h5>STARTING AT</h5>
+                                    <h2><strong>$695</strong></h2>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="pricing-card">
+                                <div class="off">
+                                    <h3>75% OFF <span>$1400</span></h3>
+                                </div>
+                                <ul class="pricing-ul">
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                    <li>3 Revisions</li>
+                                    <li>Complete W3C Certified HTML Guarantee</li>
+                                    <li>Complete Deployment</li>
+                                    <li>48 Hours Turn Around Time</li>
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                    <li>Complete Deployment</li>
+                                    <li>48 Hours Turn Around Time</li>
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                </ul>
+                                <div class="line">
+                                    <p>Ideal for small business and start Ups</p>
+                                </div>
+                                <div class="end">
+                                    <a href="" class="price-btn blue">BUY NOW TODAY</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="nav-profile1" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="col-lg-4">
+                            <div class="startup-box">
+                                <div class="title">
+                                    <h4>STARTUP WEBSITE</h4>
+                                </div>
+                                <div class="price">
+                                    <h5>STARTING AT</h5>
+                                    <h2><strong>$695</strong></h2>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="pricing-card">
+                                <div class="off">
+                                    <h3>75% OFF <span>$1400</span></h3>
+                                </div>
+                                <ul class="pricing-ul">
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                    <li>3 Revisions</li>
+                                    <li>Complete W3C Certified HTML Guarantee</li>
+                                    <li>Complete Deployment</li>
+                                    <li>48 Hours Turn Around Time</li>
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                    <li>Complete Deployment</li>
+                                    <li>48 Hours Turn Around Time</li>
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                </ul>
+                                <div class="line">
+                                    <p>Ideal for small business and start Ups</p>
+                                </div>
+                                <div class="end">
+                                    <a href="" class="price-btn">BUY NOW TODAY</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 unblock">
+                            <div class="startup-box change1">
+                                <div class="title">
+                                    <h4>STARTUP WEBSITE</h4>
+                                </div>
+                                <div class="price">
+                                    <h5>STARTING AT</h5>
+                                    <h2><strong>$695</strong></h2>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="pricing-card">
+                                <div class="off">
+                                    <h3>75% OFF <span>$1400</span></h3>
+                                </div>
+                                <ul class="pricing-ul">
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                    <li>3 Revisions</li>
+                                    <li>Complete W3C Certified HTML Guarantee</li>
+                                    <li>Complete Deployment</li>
+                                    <li>48 Hours Turn Around Time</li>
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                    <li>Complete Deployment</li>
+                                    <li>48 Hours Turn Around Time</li>
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                </ul>
+                                <div class="line">
+                                    <p>Ideal for small business and start Ups</p>
+                                </div>
+                                <div class="end">
+                                    <a href="" class="price-btn purple">BUY NOW TODAY</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 unblock">
+                            <div class="startup-box change2">
+                                <div class="title">
+                                    <h4>STARTUP WEBSITE</h4>
+                                </div>
+                                <div class="price">
+                                    <h5>STARTING AT</h5>
+                                    <h2><strong>$695</strong></h2>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="pricing-card">
+                                <div class="off">
+                                    <h3>75% OFF <span>$1400</span></h3>
+                                </div>
+                                <ul class="pricing-ul">
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                    <li>3 Revisions</li>
+                                    <li>Complete W3C Certified HTML Guarantee</li>
+                                    <li>Complete Deployment</li>
+                                    <li>48 Hours Turn Around Time</li>
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                    <li>Complete Deployment</li>
+                                    <li>48 Hours Turn Around Time</li>
+                                    <li>5 Page Responsive Website Design</li>
+                                    <li>1 Banner Design</li>
+                                    <li>Contact/Query Form</li>
+                                </ul>
+                                <div class="line">
+                                    <p>Ideal for small business and start Ups</p>
+                                </div>
+                                <div class="end">
+                                    <a href="" class="price-btn blue">BUY NOW TODAY</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="col-lg-4 unblock">
+                                <div class="startup-box">
+                                    <div class="title">
+                                        <h4>STARTUP WEBSITE</h4>
+                                    </div>
+                                    <div class="price">
+                                        <h5>STARTING AT</h5>
+                                        <h2><strong>$695</strong></h2>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="pricing-card">
+                                    <div class="off">
+                                        <h3>75% OFF <span>$1400</span></h3>
+                                    </div>
+                                    <ul class="pricing-ul">
+                                        <li>5 Page Responsive Website Design</li>
+                                        <li>1 Banner Design</li>
+                                        <li>Contact/Query Form</li>
+                                        <li>3 Revisions</li>
+                                        <li>Complete W3C Certified HTML Guarantee</li>
+                                        <li>Complete Deployment</li>
+                                        <li>48 Hours Turn Around Time</li>
+                                        <li>5 Page Responsive Website Design</li>
+                                        <li>1 Banner Design</li>
+                                        <li>Contact/Query Form</li>
+                                        <li>Complete Deployment</li>
+                                        <li>48 Hours Turn Around Time</li>
+                                        <li>5 Page Responsive Website Design</li>
+                                        <li>1 Banner Design</li>
+                                        <li>Contact/Query Form</li>
+                                    </ul>
+                                    <div class="line">
+                                        <p>Ideal for small business and start Ups</p>
+                                    </div>
+                                    <div class="end">
+                                        <a href="" class="price-btn">BUY NOW TODAY</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="startup-box change1">
+                                    <div class="title">
+                                        <h4>STARTUP WEBSITE</h4>
+                                    </div>
+                                    <div class="price">
+                                        <h5>STARTING AT</h5>
+                                        <h2><strong>$695</strong></h2>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="pricing-card">
+                                    <div class="off">
+                                        <h3>75% OFF <span>$1400</span></h3>
+                                    </div>
+                                    <ul class="pricing-ul">
+                                        <li>5 Page Responsive Website Design</li>
+                                        <li>1 Banner Design</li>
+                                        <li>Contact/Query Form</li>
+                                        <li>3 Revisions</li>
+                                        <li>Complete W3C Certified HTML Guarantee</li>
+                                        <li>Complete Deployment</li>
+                                        <li>48 Hours Turn Around Time</li>
+                                        <li>5 Page Responsive Website Design</li>
+                                        <li>1 Banner Design</li>
+                                        <li>Contact/Query Form</li>
+                                        <li>Complete Deployment</li>
+                                        <li>48 Hours Turn Around Time</li>
+                                        <li>5 Page Responsive Website Design</li>
+                                        <li>1 Banner Design</li>
+                                        <li>Contact/Query Form</li>
+                                    </ul>
+                                    <div class="line">
+                                        <p>Ideal for small business and start Ups</p>
+                                    </div>
+                                    <div class="end">
+                                        <a href="" class="price-btn purple">BUY NOW TODAY</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 unblock">
+                                <div class="startup-box change2">
+                                    <div class="title">
+                                        <h4>STARTUP WEBSITE</h4>
+                                    </div>
+                                    <div class="price">
+                                        <h5>STARTING AT</h5>
+                                        <h2><strong>$695</strong></h2>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="pricing-card">
+                                    <div class="off">
+                                        <h3>75% OFF <span>$1400</span></h3>
+                                    </div>
+                                    <ul class="pricing-ul">
+                                        <li>5 Page Responsive Website Design</li>
+                                        <li>1 Banner Design</li>
+                                        <li>Contact/Query Form</li>
+                                        <li>3 Revisions</li>
+                                        <li>Complete W3C Certified HTML Guarantee</li>
+                                        <li>Complete Deployment</li>
+                                        <li>48 Hours Turn Around Time</li>
+                                        <li>5 Page Responsive Website Design</li>
+                                        <li>1 Banner Design</li>
+                                        <li>Contact/Query Form</li>
+                                        <li>Complete Deployment</li>
+                                        <li>48 Hours Turn Around Time</li>
+                                        <li>5 Page Responsive Website Design</li>
+                                        <li>1 Banner Design</li>
+                                        <li>Contact/Query Form</li>
+                                    </ul>
+                                    <div class="line">
+                                        <p>Ideal for small business and start Ups</p>
+                                    </div>
+                                    <div class="end">
+                                        <a href="" class="price-btn blue">BUY NOW TODAY</a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="help-sec help-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-between align-items-center change3">
+                        <div>
+                            <p>Do you need help with any other aspects of your IT project?</p>
+                            <h1 data-aos="zoom-in">JUST ASk US, WE ARE HERE TO HELP!</h1>
+                        </div>
+                        <div class="d-flex gap-1"><a href="#Contact" class="btn-1">Contact An Expert</a><span> </span><a href="#services" class="btn-2">View 50% Off Pricing</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="balance-sec">
+        <div class="container">
+            <div class="row  justify-content-center">
+                <img src="./ASSETS/incease-removebg-preview.png" alt="" class="increase-img text-center">
+                <h1 class="text-center" data-aos="zoom-in">Balance Design. <br> Workflow Efficiency <br> Brand Development.</h1>
+                <div class="col-lg-6 swap">
+                    <div class="balance-box1 text-left mb-5">
+                        <img src="./ASSETS/balance-icon.png" alt="">
+                        <h2>Quality Designs</h2>
+                        <p>We provide quality products with top <br> creative talent build brands that <br> stand out section.</p>
+                    </div>
+                    <div class="balance-box1 text-left mb-5">
+                        <img src="./ASSETS/balance-icon.png" alt="">
+                        <h2>Quality Designs</h2>
+                        <p>We provide quality products with top <br> creative talent build brands that <br> stand out section.</p>
+                    </div>
+                    <div class="balance-box1 text-left">
+                        <img src="./ASSETS/balance-icon.png" alt="">
+                        <h2>Quality Designs</h2>
+                        <p>We provide quality products with top <br> creative talent build brands that <br> stand out section.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="balance-box2 text-end mb-5">
+                        <img src="./ASSETS/balance-icon.png" alt="">
+                        <h2>Quality Designs</h2>
+                        <p>We provide quality products with top <br> creative talent build brands that <br> stand out section.</p>
+                    </div>
+                    <div class="balance-box2 text-end mb-5">
+                        <img src="./ASSETS/balance-icon.png" alt="">
+                        <h2>Quality Designs</h2>
+                        <p>We provide quality products with top <br> creative talent build brands that <br> stand out section.</p>
+                    </div>
+                    <div class="balance-box2 text-end">
+                        <img src="./ASSETS/balance-icon.png" alt="">
+                        <h2>Quality Designs</h2>
+                        <p>We provide quality products with top <br> creative talent build brands that <br> stand out section.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviwe-sec" id="about">
+        <div class="container-fluid">
+            <div class="row text-center justify-content-center">
+                <img src="./ASSETS/incease-removebg-preview.png" alt="" class="increase-img text-center">
+                <div class="review-slider">
+                    <div class="review-box">
+                        <div class="d-flex align-items-center text-center justify-content-between">
+                            <div class="st-div">
+                                <img src="./ASSETS/review-slider-img.png" alt="" class="text-center">
+                                <h1>JOHN SMITH</h1>
+                                <h6>Co Founder <br> Company</h6>
+                            </div>
+                            <div>
+                                <p>I would highly recommend <br> BrandName. I worked with the <br> team on an animation for our <br> 'Click & Collect Service.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-box">
+                        <div class="d-flex align-items-center text-center justify-content-between">
+                            <div class="st-div">
+                                <img src="./ASSETS/review-slider-img.png" alt="">
+                                <h1>JOHN SMITH</h1>
+                                <h6>Co Founder <br> Company</h6>
+                            </div>
+                            <div>
+                                <p>I would highly recommend <br> BrandName. I worked with the <br> team on an animation for our <br> 'Click & Collect Service.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-box">
+                        <div class="d-flex align-items-center text-center justify-content-between">
+                            <div class="st-div">
+                                <img src="./ASSETS/review-slider-img.png" alt="">
+                                <h1>JOHN SMITH</h1>
+                                <h6>Co Founder <br> Company</h6>
+                            </div>
+                            <div>
+                                <p>I would highly recommend <br> BrandName. I worked with the <br> team on an animation for our <br> 'Click & Collect Service.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-box">
+                        <div class="d-flex align-items-center text-center justify-content-between">
+                            <div class="st-div">
+                                <img src="./ASSETS/review-slider-img.png" alt="">
+                                <h1>JOHN SMITH</h1>
+                                <h6>Co Founder <br> Company</h6>
+                            </div>
+                            <div>
+                                <p>I would highly recommend <br> BrandName. I worked with the <br> team on an animation for our <br> 'Click & Collect Service.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="help-sec challenge-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-between align-items-center change3">
+                        <div>
+                            <p>Do you need help with any other aspects of your IT project?</p>
+                            <h1 data-aos="zoom-in">JUST ASk US, WE ARE HERE TO HELP!</h1>
+                        </div>
+                        <div class="d-flex gap-1"><a href="#Contact" class="btn-1">Contact An Expert</a><span> </span><a href="#services" class="btn-2">View 50% Off Pricing</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-left challenge-box1">
+                        <p>NUMBER SPEAKS</p>
+                        <img src="./ASSETS/incease-removebg-preview.png" alt="" class="">
+                        <h1 data-aos="zoom-in">WE ALWAYS READY <br> FOR A CHALLENGE.</h1>
+                        <p>We provide quality products with top <br> creative talent build brands that <br> stand out section.</p>
+                        <img src="./ASSETS/table-img.png" alt="" class="mt-5 table-img">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="challenge-box2">
+                        <div class="d-flex align-items-center justify-content-evenly challenge-boxg">
+                            <div>
+                                <h3>1035</h3>
+                            </div>
+                            <div>
+                                <h6>Successful Projects</h6>
+                                <p>We provide quality products with top <br> creative talent build brands that <br> stand out section.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="challenge-box2 less">
+                        <div class="d-flex align-items-center justify-content-evenly challenge-boxg">
+                            <div>
+                                <h3>2034</h3>
+                            </div>
+                            <div>
+                                <h6>Unique Designs</h6>
+                                <p>We provide quality products with top <br> creative talent build brands that <br> stand out section.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="challenge-box2 less">
+                        <div class="d-flex align-items-center justify-content-evenly challenge-boxg">
+                            <div>
+                                <h3>2034</h3>
+                            </div>
+                            <div>
+                                <h6>Quality Development</h6>
+                                <p>We provide quality products with top <br> creative talent build brands that <br> stand out section.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="marquee-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="d-flex gap-1 loop-slider justify-content-center">
+                    <div class="setting">
+                        <img src="./ASSETS/m-small1.png" alt="">
+                        <img src="./ASSETS/m-small2.png" alt="">
+                    </div>
+                    <div class="setting">
+                        <img src="./ASSETS/m-small1.png" alt="">
+                        <img src="./ASSETS/m-small2.png" alt="">
+                    </div>
+                    <div class="setting">
+                        <img src="./ASSETS/m-small1.png" alt="">
+                        <img src="./ASSETS/m-small2.png" alt="">
+                    </div>
+                    <div class="setting">
+                        <img src="./ASSETS/m-small1.png" alt="">
+                        <img src="./ASSETS/m-small2.png" alt="">
+                    </div>
+                    <div class="setting">
+                        <img src="./ASSETS/m-small1.png" alt="">
+                        <img src="./ASSETS/m-small2.png" alt="">
+                    </div>
+                    <div class="setting">
+                        <img src="./ASSETS/m-small1.png" alt="">
+                        <img src="./ASSETS/m-small2.png" alt="">
+                    </div>
+                    <div class="setting">
+                        <img src="./ASSETS/m-small1.png" alt="">
+                        <img src="./ASSETS/m-small2.png" alt="">
+                    </div>
+                    <div class="setting">
+                        <img src="./ASSETS/m-small1.png" alt="">
+                        <img src="./ASSETS/m-small2.png" alt="">
+                    </div>
+                    <div class="setting">
+                        <img src="./ASSETS/m-small1.png" alt="">
+                        <img src="./ASSETS/m-small2.png" alt="">
+                    </div>
+                    <div class="setting">
+                        <img src="./ASSETS/m-small1.png" alt="">
+                        <img src="./ASSETS/m-small2.png" alt="">
+                    </div>
+                    <div class="setting">
+                        <img src="./ASSETS/m-small1.png" alt="">
+                        <img src="./ASSETS/m-small2.png" alt="">
+                    </div>
+                    <div class="setting">
+                        <img src="./ASSETS/m-small1.png" alt="">
+                        <img src="./ASSETS/m-small2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-sec" id="Contact">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 swap">
+                    <p>Need a designer</p>
+                    <h1 data-aos="zoom-in">LET’S WORK TOGETHER</h1>
+                    <div class="info-box">
+                        <h6>Mail</h6>
+                        <h2>example@gmail.com</h2>
+                    </div>
+                    <div class="info-box">
+                        <h6>Address</h6>
+                        <h2>Warnwe Park Streetperrine, <br> FL 33157 New York City</h2>
+                    </div>
+                    <div class="info-box">
+                        <h6>Phone</h6>
+                        <h2>+0123456789</h2>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <form class="contact-form">
+                        <h3>Describe your project</h3>
+                      <div class="row g-3">
+                        <div class="col-md-12">
+                          <label style="font-weight: 600;" for="Name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="Name" name="Name" required>
+                        </div>
+                        <div class="col-md-12">
+                          <label style="font-weight: 600;" for="Email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="Email" name="Email" required>
+                        </div>
+                        <div class="col-md-12">
+                          <label style="font-weight: 600;" for="Phone" class="form-label">Phone</label>
+                          <input type="number" class="form-control" id="Phone" name="Phone" required>
+                        </div>
+                        <div class="col-12">
+                          <label style="font-weight: 600;" for="your-message" class="form-label">How can we help you?</label>
+                          <textarea class="form-control" id="your-message" name="your-message" rows="4" required></textarea>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button class="btn-3" type="submit">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <h2>Your perfect business partner solution</h2>
+                    <h5>+0123456789</h5>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="social-icons d-flex gap-3 justify-content-center">
+                        <a href="#"><i class="fa-brands fa-facebook-f" style="color: #cc1c5c;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: #cc1c5c;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" style="color: #cc1c5c;"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube" style="color: #cc1c5c;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 align-items-center">
+                <div class="col-lg-4 swap">
+                    <a href="#main"><img src="ASSETS/logo.png" alt="" class="mb-4"></a>
+                    <p>We provide quality products with top <br> creative talent build brands that <br> stand out section.</p>
+                </div>
+                <div class="col-lg-2">
+                    <div class="text-left social-links">
+                        <h1>LINKS</h1>
+                        <ul>
+                            <li><a href="#services">Our Services</a></li>
+                            <li><a href="#meet">Meet Our Team</a></li>
+                            <li><a href="#portfolio">Our Portfolio</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                            <li><a href="">News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="text-left social-links">
+                        <span>kkk</span>
+                        <ul>
+                            <li><a href="">FAQs</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="#help">Help</a></li>
+                            <li><a href="#services">Services</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="letter-box">
+                        <h3>NEWSLETTER</h3>
+                        <div class="d-flex align-items-center">
+                            <input type="email" placeholder="Email address" class="E-input" required>
+                            <input type="submit" class="subbmit" value="">
+                        </div>
+                        <label for=""><input type="checkbox" class="checkbox fa-solid fa-check " required>I agree to all your terms and policies</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="bottom-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <p>© Copyrights, 2021 BrandName</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+</html>
